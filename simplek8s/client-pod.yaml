@@ -1,10 +1,10 @@
 apiVersion: v1
-kind: Pod
+kind: pod
 metadata:
   name: client-pod
   labels:
     component: web
-spec:
+specs:
   containers:
     - name: client
       image: stephengrider/multi-client
