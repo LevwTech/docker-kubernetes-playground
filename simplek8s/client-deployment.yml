@@ -1,7 +1,7 @@
 apiVersion: v1
-kind: deployment:
+kind: Deployment
 metadata:
-  name: client-deployment:
+  name: client-deployment
 spec:
   replicas: 1
   selector: 
